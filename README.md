@@ -1,20 +1,20 @@
 ﻿# Spear Phishing: Bangladesh Bank Cyber Heist (2016)
 
-## ঘটনার সারাংশ
+## Incident Summary
 
-২০১৬ সালের ফেব্রুয়ারিতে বাংলাদেশ ব্যাংকের নেটওয়ার্কে অনুপ্রবেশ করে আক্রমণকারীরা ব্যাংকের SWIFT-সংযুক্ত কম্পিউটার ব্যবহার করে জাল অর্থ-স্থানান্তর নির্দেশ পাঠায়। নিউইয়র্ক ফেডে থাকা বাংলাদেশ ব্যাংকের হিসাব থেকে মোট প্রায় **৯৫১ মিলিয়ন মার্কিন ডলার** সরানোর চেষ্টা করা হয়। এর মধ্যে **৮১ মিলিয়ন ডলার** ফিলিপাইনের কয়েকটি হিসাবে চলে যায়; আরেকটি প্রায় ২০ মিলিয়ন ডলারের স্থানান্তর শ্রীলঙ্কায় আটকে যায়। [যুক্তরাষ্ট্রের বিচার বিভাগের নথি](https://www.justice.gov/usao-cdca/press-release/file/1091951/dl) এবং [বাংলাদেশ ব্যাংকের BFIU বার্ষিক প্রতিবেদন](https://www.bb.org.bd/pub/annual/bfiu/2015-2016.pdf) এই ঘটনার বিবরণ দেয়।
+In February 2016, attackers gained access to Bangladesh Bank’s network and used computers connected to its SWIFT environment to send fraudulent payment instructions. They attempted to move approximately **US$951 million** from Bangladesh Bank’s account at the Federal Reserve Bank of New York. About **US$81 million** was transferred to accounts in the Philippines; another transfer of roughly US$20 million to Sri Lanka was stopped. The [U.S. Department of Justice filing](https://www.justice.gov/usao-cdca/press-release/file/1091951/dl) and the [Bangladesh Bank BFIU annual report](https://www.bb.org.bd/pub/annual/bfiu/2015-2016.pdf) describe the incident.
 
-## Spear phishing-এর সঙ্গে সম্পর্ক
+## How It Relates to Spear Phishing
 
-আক্রমণটি শুধু একটি phishing email-এ সীমাবদ্ধ ছিল না। তদন্ত-সংক্রান্ত প্রকাশিত বিবরণে বাংলাদেশি ব্যাংকগুলোকে লক্ষ্য করে spear-phishing email ও malware ব্যবহারের কথা আছে; পরে আক্রমণকারীরা নেটওয়ার্কে প্রবেশ করে SWIFT-সংযুক্ত সিস্টেমে পৌঁছায় এবং লেনদেনের চিহ্ন আড়াল করার চেষ্টা করে। তাই এই ঘটনাটি দেখায় কীভাবে নির্দিষ্ট প্রতিষ্ঠানের কর্মীদের লক্ষ্য করে পাঠানো phishing বার্তা বড় ধরনের আর্থিক ক্ষতির সূচনা করতে পারে। তবে প্রকাশ্য নথি থেকে একটিমাত্র নির্দিষ্ট email-কে চুরির একমাত্র প্রবেশপথ বলে নিশ্চিত করা যায় না। [যুক্তরাষ্ট্রের বিচার বিভাগের নথি](https://www.justice.gov/usao-cdca/press-release/file/1091951/dl) · [National Security Archive-এর বিশ্লেষণ](https://nsarchive.gwu.edu/news/cyber-vault/2019-02-20/tainted-trove)
+The attack was not limited to a single phishing email. Published investigative accounts describe spear-phishing emails and malware targeting banks in Bangladesh. After gaining access to the network, the attackers reached systems connected to SWIFT and attempted to conceal evidence of the transactions. The case shows how phishing messages tailored to employees at a specific organization can contribute to much larger financial losses. However, public records do not establish one specific email as the sole entry point for the heist. See the [U.S. Department of Justice filing](https://www.justice.gov/usao-cdca/press-release/file/1091951/dl) and the [National Security Archive analysis](https://nsarchive.gwu.edu/news/cyber-vault/2019-02-20/tainted-trove).
 
-## ছবির বিষয়ে
+## About the Image
 
-সংযুক্ত ছবিটি বাংলাদেশ ব্যাংক হাইস্ট নিয়ে একটি ভিডিওর থাম্বনেইল বলে মনে হয়। ছবিতে দেখা নাম, ঠিকানা ও **$500** ব্যালেন্সকে বাস্তব ভুক্তভোগীর তথ্য বা চুরি হওয়া অর্থের পরিমাণ হিসেবে ধরা উচিত নয়; এগুলো ঘটনার সরকারি বিবরণে প্রতিষ্ঠিত তথ্য নয়। ঘটনার নিশ্চিতভাবে রিপোর্ট করা চুরির পরিমাণ ছিল **$81 million**।
+The supplied image appears to be a video thumbnail about the Bangladesh Bank heist. The name, address, and **$500** balance shown in the image should not be treated as verified details about a real victim or as the amount stolen; they are not established by official accounts of the incident. The reported amount successfully stolen was **US$81 million**.
 
-## শেখার বিষয়
+## Lessons
 
-- ইমেইলের প্রেরক, ডোমেইন, লিংক ও সংযুক্তি যাচাই করুন; অপ্রত্যাশিত ফাইল বা চাকরির আবেদন-সংক্রান্ত সংযুক্তি সতর্কভাবে পরীক্ষা করুন।
-- ব্যাংকিং ও SWIFT-সংযুক্ত সিস্টেমকে সাধারণ ব্যবহারকারী নেটওয়ার্ক থেকে আলাদা রাখুন এবং প্রবেশাধিকার সীমিত করুন।
-- অর্থ স্থানান্তরের অনুরোধ স্বাধীন, দ্বিতীয় চ্যানেলে যাচাই করুন; অস্বাভাবিক লেনদেনে একাধিক অনুমোদন ও দ্রুত সতর্কতা চালু রাখুন।
-- লগ, প্রিন্ট আউটপুট ও লেনদেনের রেকর্ড আলাদা নিরাপদ স্থানে সংরক্ষণ করুন, যাতে অনুপ্রবেশ হলে প্রমাণ মুছে ফেলা কঠিন হয়।
+- Verify email senders, domains, links, and attachments. Treat unexpected files, including job application attachments, with caution.
+- Separate banking and SWIFT-connected systems from ordinary user networks, and restrict access to them.
+- Verify payment requests through an independent second channel. Require multiple approvals and alerts for unusual transactions.
+- Store logs, printed records, and transaction evidence in a separate secure location so an intruder has a harder time erasing them.
